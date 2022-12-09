@@ -1,6 +1,6 @@
 PRUUUU{
-   display: flex;
+   width: 35%;
    height: 100vh;
-   align-items: center;
-   justify-content: center;
+   max-width: 415px;
+   border-right: 1px solid #ddd;
 }
