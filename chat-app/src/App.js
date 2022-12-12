@@ -8,6 +8,7 @@ import * as C from './styles/App';
 
 const App = ()=> {
   const [user, loading] = useAuthState(auth);
+  const [userChat, setUserChat] = useState(null);
 
   useEffect(() => {
     if(user){
@@ -25,8 +26,9 @@ const App = ()=> {
 
   return (
     <C.Container>
-      <Sidebar/>
-    </C.Container>
+      <Sidebar setUserChat={setUserChat} userChat={userChat}/>
+     </C.Container>
+
   )
 }
 

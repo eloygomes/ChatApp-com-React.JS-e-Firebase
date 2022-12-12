@@ -8,9 +8,9 @@ const Login = ()=> {
     };
   return (
     <C.Container>
-        <C.Button onClick={handleSignIn}></C.Button>
+        <C.Button onClick={handleSignIn}>Login com Google</C.Button>
     </C.Container>
   )
 }
 
-export default Login
+export default Login;
