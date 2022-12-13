@@ -4,6 +4,8 @@ import  SidebarHeader  from '../SidebarHeader/index';
 import  SidebarChats  from '../SidebarChats/index';
 
 const Sidebar = ({setUserChat, userChat}) => {
+
+  console.log(setUserChat, userChat);
   return (
     <C.Container>
         <SidebarHeader setUserChat={setUserChat}/>
@@ -12,4 +14,4 @@ const Sidebar = ({setUserChat, userChat}) => {
   )
 }
 
-export default Sidebar
+export default Sidebar;
