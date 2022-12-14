@@ -28,8 +28,6 @@ const SidebarHeader = ({ setUserChat }) => {
     db.collection('chats').add({
       users: [user.email, emailInput],
     })
-
-    console.log(emailInput);
     
   }
 

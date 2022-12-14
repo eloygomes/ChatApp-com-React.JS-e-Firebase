@@ -5,8 +5,7 @@ import  SidebarChats  from '../SidebarChats/index';
 
 const Sidebar = ({setUserChat, userChat}) => {
 
-  console.log(setUserChat, userChat);
-  return (
+    return (
     <C.Container>
         <SidebarHeader setUserChat={setUserChat}/>
         <SidebarChats setUserChat={setUserChat} userChat={userChat}/>
